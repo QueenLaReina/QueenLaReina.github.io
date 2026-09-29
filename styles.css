@@ -198,13 +198,13 @@ section#about {
 }
 
 /* Work Section */
-section#coursework {
+section#work {
   background-color: #87ceeb;
   color: #0c0c0c;
   --color-accent: #2e8b57;
 }
 
-.coursework_logos {
+.work_logos {
   margin-top: var(--space-xl);
 }
 
