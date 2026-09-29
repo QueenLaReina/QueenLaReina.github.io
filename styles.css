@@ -238,6 +238,7 @@ section#contact {
 button[type="submit"] {
   padding: var(--space-2xs) var(--space-m);
   background-color: var(--step--1);
+  color: white
   cursor: pointer;
   align-self: flex-start;
 }
