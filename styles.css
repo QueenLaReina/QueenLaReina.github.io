@@ -197,6 +197,25 @@ section#about {
   padding: var(--space-3xs) 0;
 }
 
+/* Container holding the text and list together on the right */
+.about_text_block {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-m);
+  max-width: 600px;
+}
+
+/* List spacing and visible numbers */
+.styled_list {
+  padding-left: 1.5rem;
+  margin-top: var(--space-xs);
+  line-height: 1.6;
+}
+
+.styled_list li {
+  list-style-type: decimal; /* Ensures numbers 1, 2, 3 display clearly */
+}
+
 /* Work Section */
 section#coursework {
   background-color: #87ceeb;
